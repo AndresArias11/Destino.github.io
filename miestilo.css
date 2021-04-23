@@ -1,0 +1,57 @@
+body{
+    background-color: #d8dad3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left:11em ; /* separa 11em del borde contenedor*/
+}
+ul.navbar{
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    font-weight: bold;    
+}
+#derecho {
+	width: 300px;
+	background-color: pink;
+	float: left;
+
+}
+
+  .form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+  #ImgArbol {
+
+    float: left;
+    width: 800px;
+    height: 250px;
+    padding-left: 40px;
+    margin-left: 40px;
+}
