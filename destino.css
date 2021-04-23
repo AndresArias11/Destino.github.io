@@ -1,0 +1,46 @@
+h1{
+    
+    float: left;
+    width: auto;
+    right: 40px;
+    padding-left: 50px;
+    
+
+}
+
+
+img{
+
+    width: 100%;
+    max-width: 2000px;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+    
+
+}
+
+#menu {
+
+    padding-top: 10px;
+    height: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 80px;
+
+}
+
+.container{
+
+    margin: auto;
+    margin-top: 10px;
+    width: 800px;
+    height: 200px;
+    background-color: cadetblue;
+    margin-left: 50px;
+    
+
+}
