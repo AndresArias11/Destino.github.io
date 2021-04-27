@@ -1,13 +1,11 @@
 #container {
-width: 1400px;
-height: 1000px;
+
 margin-top: 10px;
 background-color: whitesmoke;
 
 }
 #header {
 	background-color: greenyellow;
-	width: 1400px;
 	height: 100px;
 	padding-top: 10px;
 	font-family: 'Times New Roman', Times, serif;
@@ -17,19 +15,17 @@ background-color: whitesmoke;
 
 }
 
-#menu {
-	background-color: silver;
-	width: 960px;
-	height: 50px;
-	float: left;
-}
+
 
 #principal {
 	margin-top: 10px;
 	background-color: yellow;
-	width: 750px;
-	height: 400px;
+	width: 450px;
+	height: 200px;
+	align-items: center;
 	float: right;
+	
+	
 	
 }
 
@@ -46,7 +42,6 @@ background-color: whitesmoke;
 	background-color: greenyellow;
 	width: 150px;
 	height: 800px;
-	float: left;
 	margin-right: 10px;
 }
 
@@ -55,7 +50,7 @@ background-color: whitesmoke;
 	background-color: yellow;
 	width: 700px;
 	height:150px;
-	float: right;
+	
 }
 
 ul.navbar {
@@ -66,6 +61,7 @@ ul.navbar {
     list-style-type: none;
     padding: 0;
     margin: 0;
+	display: block;
 
 
 }
@@ -76,6 +72,7 @@ ul.navbar li {
     padding: 0.3em;
     font-weight: bold; 
 	border-color: skyblue;
+	display: block;
 
 }
 
